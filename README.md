@@ -12,16 +12,16 @@ To keep the files manageable the model has been split into parts mapping to diff
 
 # Requirements
 This model was created and tested with Tamarin Prover version 1.4.1. 
-The latest version of Tamarin Prover can be found and downloaded [here](https://tamarin-prover.github.io/manual/book/002\_installation.html).
-It is also useful to have the Tamarin Prover manual that can be found [here](https://tamarin-prover.github.io/manual/index.html).
+The latest version of Tamarin Prover can be found and downloaded [here](https://tamarin-prover.github.io/manual/book/002\_installation.html).  
+It is also useful to have the Tamarin Prover manual that can be found [here](https://tamarin-prover.github.io/manual/index.html).  
 
 # Running Instructions
 
-To run Tamarin from the terminal run the following command (you can of course change the .spthy file):
-`tamarin-prover wirelessHART_e2e.spthy`
-Then you can prove properties with a command like:
-`tamarin-prover wirelessHART_e2e.spthy --prove=message_authentication_UC`
+To run Tamarin from the terminal run the following command (you can of course change the .spthy file):  
+`tamarin-prover wirelessHART_e2e.spthy`   
+Then you can prove properties with a command like:  
+`tamarin-prover wirelessHART_e2e.spthy --prove=message_authentication_UC`  
 
-Or use the Tamarin web-based graphical user interface run:
-`tamarin-prover interactive .`
-And open `http://127.0.0.1:3001` in your web browser.
+Or use the Tamarin web-based graphical user interface run:  
+`tamarin-prover interactive .`  
+And open `http://127.0.0.1:3001` in your web browser.  
