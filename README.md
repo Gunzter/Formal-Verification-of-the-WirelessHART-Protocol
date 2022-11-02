@@ -11,7 +11,7 @@ To keep the files manageable the model has been split into parts mapping to diff
 4. **wirelesshART\_dlpdu.spthy**
 
 # Requirements
-This model was created and tested with Tamarin Prover version 1.4.1. 
+This model was created and tested with Tamarin Prover version 1.4.1.  
 The latest version of Tamarin Prover can be found and downloaded [here](https://tamarin-prover.github.io/manual/book/002\_installation.html).  
 It is also useful to have the Tamarin Prover manual that can be found [here](https://tamarin-prover.github.io/manual/index.html).  
 
