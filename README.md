@@ -5,10 +5,10 @@ This repository contains the Tamarin Prover files for the paper "Formal verifica
 This repository contains Tamarin models for the WirelessHART protocol.
 To keep the files manageable the model has been split into parts mapping to different parts of the WirelessHART specification.
 
-1. **wirelessHART\_e2e.spthy**
-2. **wirelessHART\_join.spthy**
-3. **wirelessHART\_key\_change.spthy**
-4. **wirelesshART\_dlpdu.spthy**
+1. **wirelessHART\_e2e.spthy** Models the 'WirelessHART End-to-End Security Protocol' for unicast and broadcast and contains lemmas verifying message secrecy and authentication.
+2. **wirelessHART\_join.spthy** Models the 'WirelessHART Join Sequence' and contains lemmas verifying key secrecy and authentication.
+3. **wirelessHART\_key\_change.spthy** Models the 'WirelessHART Network Key Change Operation' for unicast and broadcast and contains lemmas verifying key secrecy and authentication.
+4. **wirelesshART\_dlpdu.spthy** Models WirelessHART DLPDU advertisements and DLPDU disconnect messages and contains lemmas verifying message authentication.
 
 # Requirements
 This model was created and tested with Tamarin Prover version 1.4.1. 
